@@ -32,7 +32,8 @@
                 android:layout_gravity="center"
                 android:onClick="Onclik_Iniciar"
                 android:text="Iniciar"
-                android:theme="@style/AppTheme.ButtonBlue" />
+                android:theme="@style/AppTheme.ButtonBlue"
+                style="@style/Widget.AppCompat.Button.Borderless"/>
 
             <Button
                 android:id="@+id/button2"
@@ -41,7 +42,8 @@
                 android:layout_gravity="center"
                 android:onClick="Onclick_Registro"
                 android:text="Registrarse"
-                android:theme="@style/AppTheme.ButtonBlue" />
+                android:theme="@style/AppTheme.ButtonBlue"
+                style="@style/Widget.AppCompat.Button.Borderless"/>
         </LinearLayout>
     </LinearLayout>
 
